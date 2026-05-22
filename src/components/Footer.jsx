@@ -6,38 +6,38 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-top container">
         <div className="footer-brand">
-          <div className="footer-logo">Kuvaa</div>
-          <p className="footer-tagline">The Essence of True Sophistication</p>
+          <div className="footer-logo">KUVAA</div>
+          <p className="footer-desc">Vel non nibh vestibulum massa ullamcorper. Bibendum ultrices venenatis, id id sed mass commodo eros duis ut cras neque.</p>
           <div className="footer-socials">
-            <a href="https://www.instagram.com/kuvaashop_ke" target="_blank" rel="noreferrer" className="social-btn">Instagram</a>
-            <a href="https://www.tiktok.com/@kuvaa.ke" target="_blank" rel="noreferrer" className="social-btn">TikTok</a>
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="social-icon-link">f</a>
+            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="social-icon-link">t</a>
+            <a href="https://pinterest.com" target="_blank" rel="noreferrer" className="social-icon-link">p</a>
+            <a href="https://www.instagram.com/kuvaashop_ke" target="_blank" rel="noreferrer" className="social-icon-link">ig</a>
+            <a href="https://www.tiktok.com/@kuvaa.ke" target="_blank" rel="noreferrer" className="social-icon-link">tt</a>
           </div>
         </div>
-        <div className="footer-links">
-          <div className="footer-col">
-            <h4>Shop</h4>
-            <Link to="/shop/women">Women</Link>
-            <Link to="/shop/men">Men</Link>
-            <Link to="/shop/kids">Kids</Link>
-            <Link to="/shop">New Arrivals</Link>
-          </div>
-          <div className="footer-col">
-            <h4>Help</h4>
-            <Link to="/shipping">Shipping & Returns</Link>
-            <Link to="/sizing">Size Guide</Link>
-            <Link to="/contact">Contact Us</Link>
-            <Link to="/faq">FAQ</Link>
-          </div>
-          <div className="footer-col">
-            <h4>Company</h4>
-            <Link to="/about">About Kuvaa</Link>
-            <Link to="/stories">Kuvaa Stories</Link>
-            <Link to="/sustainability">Sustainability</Link>
-          </div>
+
+        <div className="footer-col">
+          <h4 className="footer-col-title">QUICK LINKS</h4>
+          <Link to="/about">About</Link>
+          <Link to="/shop">Shop</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/shop">Subscribe</Link>
+          <Link to="/terms">Term & Condition</Link>
+        </div>
+
+        <div className="footer-col">
+          <h4 className="footer-col-title">CATEGORIES</h4>
+          <Link to="/shop/women">Fashion</Link>
+          <Link to="/shop">Entertainment</Link>
+          <Link to="/shop/women">Beauty</Link>
+          <Link to="/shop">Lifestyle</Link>
+          <Link to="/shop">Travel</Link>
         </div>
       </div>
+
       <div className="footer-bottom container">
-        <span>© 2025 Kuvaa. All rights reserved.</span>
+        <span>© Kuvaa. All rights reserved.</span>
         <span>Made with love in Kenya 🇰🇪</span>
       </div>
     </footer>
